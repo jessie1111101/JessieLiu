@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import MyNav from './components/MyNav';
-import Routes from './components/Routes';
-import {withRouter} from 'react-router';
 import HomePage from './components/HomePage';  // or whatever the location is
-
-import { BrowserRouter as Router } from'react-router-dom';
 
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';

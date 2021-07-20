@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import MyNav from './MyNav';
 import Socials from './Socials';
 import AboutMe from './AboutMe';
 import Experience from './Experience';

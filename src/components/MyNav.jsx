@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, Button, Image } from 'react-bootstrap';
 import { HashLink} from 'react-router-hash-link';
-import {Link} from 'react-router-dom';
 import sun from '../images/icons8-sun-30.png';
 import moon from '../images/icons8-moon-symbol-30.png';
 
@@ -13,7 +12,7 @@ class MyNav extends Component {
     }
 
     render() { 
-        let {toggleTheme, themeLight, homepage, toggleHomepage} = this.props;
+        let {toggleTheme, themeLight} = this.props;
 
         return ( 
             <Navbar expand="sm" bg="navBar" className="navBar" fixed="top">
@@ -33,11 +32,6 @@ class MyNav extends Component {
                             <Nav.Link as={HashLink} scroll={el => window.scroll({behavior: "smooth", top: el.offsetTop - 50})} exact to="/#projects">
                                 Projects
                             </Nav.Link>
-                            {/* <Nav.Link as={Link} exact to="/blog">
-                                <div onClick={toggleHomepage} >
-                                Blog
-                                </div>
-                            </Nav.Link> */}
                             <Button className="ml-auto" variant="outline-secondary" onClick={toggleTheme}>
                                 {themeLight? <Image className="themeImg" src={moon}/> 
                                 : <Image className="themeImg" src={sun}/> }
