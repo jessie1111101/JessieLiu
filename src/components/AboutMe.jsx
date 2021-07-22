@@ -17,7 +17,7 @@ class AboutMe extends Component {
                 <div className="sectionBorder">
                     <Row>
                         <Col>
-                            I'm a 4th year bachelor of computer science student at McGill based in Toronto. I started off my bachelor's in neuroscience, but found myself intrigued by the tech industry. With zero CS knowledge or experience, I started by self-learning Python in the summer after my 2nd year of uni. By 3rd year, I was able to switch into computer science, and landed my first software developer internship that winter semester. I am a fast and motivated self-learner who enjoys being challenged at work and school. 
+                            I'm a 4th year bachelor of computer science student at McGill based in Toronto. I started off my bachelor's in neuroscience, but found myself intrigued by the tech industry. With zero CS knowledge or experience, I started by self-learning Python in the summer after my 1st year of uni. In 3rd year, I was able to switch into computer science, and landed my first software developer internship that winter semester. I am a fast and motivated self-learner who enjoys being challenged at work and school. 
                         </Col>
                         <Col md="auto">
                             <div class="imgHover">
