@@ -8,6 +8,10 @@ $border-color: rgb(71, 71, 71);
   background-color: $base-color;
   font-family: monospace;
   color: rgb(71, 71, 71);
+  button, a {
+    cursor: url(images/select-gray.png), auto !important;
+  }
+  cursor: url(images/gray-cursor.png), auto;
   .navBar {
     background-color: $base-color;
   }
@@ -44,6 +48,10 @@ $border-color: rgb(71, 71, 71);
   background-color: $border-color;
   font-family: monospace;
   color: $base-color;
+  button, a {
+    cursor: url(images/select-cursor.png), auto !important;
+  }
+  cursor: url(images/pink-cursor.png), auto;
   body {
     background-color: $border-color;
     margin: 0;
@@ -79,6 +87,8 @@ $border-color: rgb(71, 71, 71);
     color: $base-color;
   }
 }
+
+
 
 .section {
   padding-bottom: 20px;
