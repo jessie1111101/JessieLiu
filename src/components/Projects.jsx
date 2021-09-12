@@ -52,7 +52,7 @@ class Projects extends Component {
                         <Col md="auto"> 
                             <div className="imgHover">
                                 <a href="https://github.com/jessie1111101/book-recommender" target="_blank" rel="noreferrer">
-                                <Image src={book1} className="gif image" class="responsive"/> <br />
+                                <Image src={book1} className="gif image" class="responsive"/> <br/> <h1/> 
                                 <Image src={book2} className="gif image" class="responsive"/>
                                 </a>
                             </div>
