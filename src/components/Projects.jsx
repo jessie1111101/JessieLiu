@@ -17,15 +17,7 @@ class Projects extends Component {
                 </Row>
 
                 <div className="sectionBorder projectSpacer">
-                    <Row>
-                        <Col md="auto"> 
-                            <div className="imgHover">
-                                <a href="https://github.com/jessie1111101/book-recommender" target="_blank" rel="noreferrer">
-                                <Image src={book1} className="gif image" class="responsive"/> <br />
-                                <Image src={book2} className="gif image" class="responsive"/>
-                                </a>
-                            </div>
-                        </Col>
+                    <Row> 
                         <Col>
                             <Row>
                                 <Col>
@@ -45,8 +37,8 @@ class Projects extends Component {
                                     <ul className="experienceBullets">
                                         <li> Web app that uses machine learning to generate book recommendations 
                                         </li>
-                                        <li>Created in two days during the Pennapps XXII hackathon
-                                        </li>
+                                        {/* <li>Created in two days during the Pennapps XXII hackathon
+                                        </li> */}
                                         <li>ML: TF-IDF vectorization and cosine similarity to determine book recommendations using the kaggle goodreads-10k dataset. We used scikit-learn, pandas, and python
                                         </li>
                                         <li>Backend: built with flask and python
@@ -56,6 +48,14 @@ class Projects extends Component {
                                     </ul> 
                                 </Col>
                             </Row>
+                        </Col>
+                        <Col md="auto"> 
+                            <div className="imgHover">
+                                <a href="https://github.com/jessie1111101/book-recommender" target="_blank" rel="noreferrer">
+                                <Image src={book1} className="gif image" class="responsive"/> <br />
+                                <Image src={book2} className="gif image" class="responsive"/>
+                                </a>
+                            </div>
                         </Col>
                     </Row>
                 </div>
