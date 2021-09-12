@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Container, Row, Col, Image} from 'react-bootstrap';
 import mochi_jump from '../images/mochi_jump_gif.gif';
+import book1 from '../images/book1.png';
+import book2 from '../images/book2.png';
 
 //introduces my projects
 class Projects extends Component {
@@ -13,6 +15,48 @@ class Projects extends Component {
                         <h2 className="introTextSpacer section">Projects </h2>
                     </Col>
                 </Row>
+
+                <div className="sectionBorder projectSpacer">
+                    <Row>
+                        <Col md="auto"> 
+                            <div className="imgHover">
+                                <a href="https://github.com/jessie1111101/book-recommender" target="_blank" rel="noreferrer">
+                                <Image src={book1} className="gif image" class="responsive"/> <br />
+                                <Image src={book2} className="gif image" class="responsive"/>
+                                </a>
+                            </div>
+                        </Col>
+                        <Col>
+                            <Row>
+                                <Col>
+                                    <h4> Book Recommender </h4>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <h6> Web app that uses machine learning to generate book recommendations  </h6>
+                                </Col>
+                                <Col md="auto">
+                                    <h6 className="rightText"> Sept 2021 </h6>
+                                </Col>
+                            </Row>
+                            <Row >
+                                <Col>
+                                    <ul className="experienceBullets">
+                                        <li>Created in two days during the Penapps XXII hackathon
+                                        </li>
+                                        <li>ML: TF-IDF vectorization and cosine similarity to determine book recommendations using the kaggle goodreads-10k dataset. We used scikit-learn, pandas, and python
+                                        </li>
+                                        <li>Backend: built with flask and python
+                                        </li>
+                                        <li>Frontend: built with React.js using material ui and scss
+                                        </li>
+                                    </ul> 
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+                </div>
 
                 <div className="sectionBorder projectSpacer">
                     <Row>
