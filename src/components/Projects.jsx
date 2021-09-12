@@ -43,7 +43,7 @@ class Projects extends Component {
                             <Row >
                                 <Col>
                                     <ul className="experienceBullets">
-                                        <li>Created in two days during the Penapps XXII hackathon
+                                        <li>Created in two days during the Pennapps XXII hackathon
                                         </li>
                                         <li>ML: TF-IDF vectorization and cosine similarity to determine book recommendations using the kaggle goodreads-10k dataset. We used scikit-learn, pandas, and python
                                         </li>
