@@ -34,7 +34,7 @@ class Projects extends Component {
                             </Row>
                             <Row>
                                 <Col>
-                                    <h6> Web app that uses machine learning to generate book recommendations  </h6>
+                                    <h6> Winner of Best UI/UX Hack @ Pennapps Hackathon XXII</h6>
                                 </Col>
                                 <Col md="auto">
                                     <h6 className="rightText"> Sept 2021 </h6>
@@ -43,6 +43,8 @@ class Projects extends Component {
                             <Row >
                                 <Col>
                                     <ul className="experienceBullets">
+                                        <li> Web app that uses machine learning to generate book recommendations 
+                                        </li>
                                         <li>Created in two days during the Pennapps XXII hackathon
                                         </li>
                                         <li>ML: TF-IDF vectorization and cosine similarity to determine book recommendations using the kaggle goodreads-10k dataset. We used scikit-learn, pandas, and python
