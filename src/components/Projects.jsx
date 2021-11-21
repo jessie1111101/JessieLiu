@@ -12,7 +12,7 @@ class Projects extends Component {
             <Container className="Projects endOfSite">
                 <Row>
                     <Col>
-                        <h2 className="introTextSpacer section">Projects </h2>
+                        <h2 className="introTextSpacer section"> {'>projects'} </h2>
                     </Col>
                 </Row>
 

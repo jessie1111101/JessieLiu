@@ -21,16 +21,16 @@ class MyNav extends Component {
                         <Nav className="container-fluid">
                         {/* <Nav> */}
                             <Nav.Link as={HashLink} scroll={el => window.scroll({behavior: "smooth", top: el.offsetTop - 50})} exact to="/#home">
-                            Home
+                            {'>home'}
                             </Nav.Link>
                             <Nav.Link as={HashLink} scroll={el => window.scroll({behavior: "smooth", top: el.offsetTop})} exact to="/#aboutMe">
-                                About
+                                {'>about'}
                             </Nav.Link>
                             <Nav.Link as={HashLink} scroll={el => window.scroll({behavior: "smooth", top: el.offsetTop - 50})} exact to="/#experience">
-                                Experience
+                                {'>experience'}
                             </Nav.Link>
                             <Nav.Link as={HashLink} scroll={el => window.scroll({behavior: "smooth", top: el.offsetTop - 50})} exact to="/#projects">
-                                Projects
+                                {'>projects'}
                             </Nav.Link>
                             <Button className="ml-auto" variant="outline-secondary" onClick={toggleTheme}>
                                 {themeLight? <Image className="themeImg" src={moon}/> 

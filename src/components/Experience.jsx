@@ -9,7 +9,7 @@ class Experience extends Component {
             <Container className="Experience">
                 <Row>
                     <Col>
-                        <h2 className="introTextSpacer section">Experience </h2>
+                        <h2 className="introTextSpacer section">{'>experience'} </h2>
                     </Col>
                 </Row>
                 

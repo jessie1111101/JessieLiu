@@ -10,7 +10,7 @@ class AboutMe extends Component {
             <Container className="AboutMe">
                 <Row>
                     <Col>
-                        <h2 className="introTextSpacer section">About Me </h2>
+                        <h2 className="introTextSpacer section">{'>about_me'} </h2>
                     </Col>
                 </Row>
                 
